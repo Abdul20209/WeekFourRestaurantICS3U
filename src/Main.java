@@ -27,7 +27,27 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
+		//Add your code
+		//Print out restaurant title
+		System.out.println("Welcome to Popeyes!");
+		//Ask about menu items for $10
+		System.out.println("How many 3-piece combos would you like to get for $10");
+		//Read in answer
+		int drinks = in.nextInt();
+		//Ask about....
 
+		double total= drinks*10;
+		
+		//check for the discount
+		if (total>50) {
+			
+		}else if (total>30) {
+			
+		}
+		
+		//calculate taxes
+		double tax = total*0.13;
+		System.out.println("You are buying "+drinks+" for $10. Your total is $"+total);
 	}
 
 }
